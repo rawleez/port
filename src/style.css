@@ -1,3 +1,17 @@
+:root {
+  --color-bg-primary: #1c1c1c;
+  --color-bg-secondary: #2e2422;
+
+  --color-text-primary: #f2ede8;
+  --color-text-secondary: #b8b0aa;
+
+  --color-accent-rose: #c4a0a0;
+  --color-accent-sage: #92a889;
+
+  --font-sans: "Outfit", sans-serif;
+  --font-serif: "Cormorant Garamond", serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +20,16 @@
 
 body {
   min-height: 100vh;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
 }
