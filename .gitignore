@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+*.local
+
+# Raw content source material — not site assets, kept local only
+*.pdf
